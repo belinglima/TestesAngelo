@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: local.locadora.entities.FilmeEntityTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.56 s <<< FAILURE! - in local.locadora.entities.FilmeEntityTest
+naoAceitarSomenteEspacoNoNome(local.locadora.entities.FilmeEntityTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Filme nao deve ter espaco em branco"
+     but: was "Um filme deve possuir entre 2 e 100 caracteres"
+	at local.locadora.entities.FilmeEntityTest.naoAceitarSomenteEspacoNoNome(FilmeEntityTest.java:130)
+

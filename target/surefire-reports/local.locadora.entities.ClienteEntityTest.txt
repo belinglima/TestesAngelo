@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: local.locadora.entities.ClienteEntityTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.716 s - in local.locadora.entities.ClienteEntityTest

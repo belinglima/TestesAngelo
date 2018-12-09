@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: local.locadora.entities.LocacaoEntityTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.514 s <<< FAILURE! - in local.locadora.entities.LocacaoEntityTest
+naoDeveValidarUmaLocacaoSemCliente(local.locadora.entities.LocacaoEntityTest)  Time elapsed: 0.414 s  <<< ERROR!
+java.util.NoSuchElementException
+	at local.locadora.entities.LocacaoEntityTest.naoDeveValidarUmaLocacaoSemCliente(LocacaoEntityTest.java:58)
+
+naoDeveValidarUmaLocacaoDeFilmeSemEstoque(local.locadora.entities.LocacaoEntityTest)  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.ClassCastException: local.locadora.entities.Filme cannot be cast to java.util.List
+	at local.locadora.entities.LocacaoEntityTest.naoDeveValidarUmaLocacaoDeFilmeSemEstoque(LocacaoEntityTest.java:101)
+

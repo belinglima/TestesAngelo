@@ -1,0 +1,3 @@
+local/locadora/controller/ClienteControllerTest.class
+local/locadora/entities/ClienteEntityTest.class
+local/locadora/dao/ClienteDaoTest.class
